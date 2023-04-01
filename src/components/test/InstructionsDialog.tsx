@@ -18,7 +18,8 @@ import Navbar from '../navbar/Navbar';
 import CustomDrawer from '../navbar/customDrawer';
 import { ComponentProps } from '../../pages/_app';
 import { useQuery } from '@apollo/client';
-import { GetTeamDetailsQuery } from '../../_generated_/GetTeamDetailsQuery';
+// import { GetTeamDetailsQuery } from '../../_generated_/GetTeamDetailsQuery';
+import { GetTeamDetailsQuery } from '../../__generated__/GetTeamDetailsQuery';
 import { GetTeamDetails } from '../../lib/queries/GetTeamDetailsQuery';
 import LoadingScreen from '../loadingScreen';
 
