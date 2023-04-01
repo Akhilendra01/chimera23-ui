@@ -57,8 +57,8 @@ const Test: React.FC<ComponentProps> = ({
 	};
 	React.useEffect(() => {
 		const timer = setInterval(() => {
-			const finaltime = new Date('April 01, 2023 10:30:00').getTime();
-			const endtime = new Date('April 01, 2023 11:05:00').getTime();
+			const finaltime = new Date('April 01, 2023 16:40:00').getTime();
+			const endtime = new Date('April 01, 2023 16:50:00').getTime();
 			let currtime = new Date().getTime();
 			let timeleft = finaltime - currtime;
 			console.log(timeleft);
