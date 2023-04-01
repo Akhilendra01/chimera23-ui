@@ -180,14 +180,14 @@ const Instructions: React.FC<Props> = ({
                 <ListItem>
                   <ListItemText>
                     1{')'} The test will begin at{' '}
-                    <b>4:00 pm IST and end at 4:30 pm IST</b>.
+                    <b>12:05pm IST and end at 12:35 pm IST</b>.
                   </ListItemText>
                 </ListItem>{' '}
                 <ListItem>
                   <ListItemText>
                     2{')'}{' '}
                     <b>
-                      The “Start Test” button will be disabled at sharp 4:05 pm
+                      The “Start Test” button will be disabled at sharp 12:10 pm
                       IST.
                     </b>{' '}
                     The button will not be enabled again. Hence, all
@@ -196,8 +196,8 @@ const Instructions: React.FC<Props> = ({
                 </ListItem>{' '}
                 <ListItem>
                   <ListItemText>
-                    3{')'}Refreshing/Reloading is prohibited.
-                     Any attempt to do so will result in erasure of responses.{' '}
+                    3{')'}Refreshing/Reloading is prohibited. Any attempt to do
+                    so will result in erasure of responses.{' '}
                   </ListItemText>
                 </ListItem>{' '}
                 <ListItem>
@@ -263,6 +263,13 @@ const Instructions: React.FC<Props> = ({
                   <ListItemText>
                     13{')'} The quiz will automatically submit once the timer
                     runs out.
+                  </ListItemText>
+                </ListItem>
+                <ListItem>
+                  <ListItemText>
+                    14{')'} For questions that have multiple options i.e. A B C
+                    D etc. you need not use special symbols (like, or ;). Ex: If
+                    the correct answer is A, C, and D you have to answer A C D.
                   </ListItemText>
                 </ListItem>
                 <ListItem>
