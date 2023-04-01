@@ -57,13 +57,12 @@ const Test: React.FC<ComponentProps> = ({
 	};
 	React.useEffect(() => {
 		const timer = setInterval(() => {
-			const finaltime = new Date('April 01, 2023 3:30:00').getTime();
-			const endtime = new Date('April 01, 2023 3:00:00').getTime();
+			const finaltime = new Date('April 01, 2023 9:30:00').getTime();
+			const endtime = new Date('April 01, 2023 10:00:00').getTime();
 			let currtime = new Date().getTime();
 			let timeleft = finaltime - currtime;
 			console.log(timeleft);
 			if (timeleft < 0 && currtime - endtime < 0) {
-				console.log('hi');
 				setButtonDisable(false);
 			}
 		}, 5);
